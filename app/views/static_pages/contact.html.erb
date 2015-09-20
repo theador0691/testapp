@@ -9,17 +9,25 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 content ">
-				<h3>Why don't you drop me an email?</h3>
+
 				<ul class="icon-list">
-					<%= image_tag("facebook.png", class: 'icons') %>
-					<p>Like me on Facebook!</p>
-					<%= image_tag("link.png", class: 'icons') %>
-					<p>Check out my Link</p>
-					<%= image_tag("github.png", class: 'github') %>
-					<p>Have a look at some of my work!</p>
+					<li>
+						<%= image_tag("facebook.png", class: 'icons') %>
+						<p class="icon-text">Like me on Facebook!</p>
+					</li>
+					<li>
+						<%= image_tag("link.png", class: 'icons') %>
+						<p class="icon-text">Check out my Link</p>
+					</li>
+					<li>
+						<%= image_tag("github.png", class: 'github') %>
+						<p class="icon-text">Have a look at some of my work!</p>
+
+					</li>
 				</ul>
 			</div>
 			<div class="col-md-6 content">
+							<h3 class="text-center contact-subheading">Why don't you drop me an email?</h3>
 				<form>
 					<label for="name">Your Name</label>
 					<br>

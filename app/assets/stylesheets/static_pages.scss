@@ -49,43 +49,80 @@ p {
 }
 
 //backgrounds
-.first-image{
-    background-image: url(home-office-336581_1280.jpg);
+.first-image {
+    background: linear-gradient(#fff, transparent 10%),  linear-gradient(180deg, #fff, transparent),  #ffa949 url('home-office-336581_1280.jpg') no-repeat center;
     background-size:cover;
     background-repeat: no-repeat;
     height:1000px;
-}   
-.contact-image{
+}
+.contact-image {
     background-image: url(mac-book.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height:1000px;
 }
-.about-image{
-    background-image: url(home);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height:1000px;
+.portfolio-background {
+    background-color:#ffd;
+    height: 100%;
 }
 
 
-.rails{
+.rails {
     margin-right:auto;
     margin-left:auto;
 }
 
+//Layout for the front text ///
+
 .front-text{
     margin-top:60%;
+    color:black;
 }
 
+
+/////Index Page ////////
+.text-index h1 {
+    color: #000000;
+
+}
+
+
+
+
+/////Portfolio/////
+.portfolio-item{
+    padding-bottom:20px;
+}
+
+.img-responsive{
+    margin:0 auto;
+}
+
+.portfolio-container{
+    background-color:blue;
+    border-radius:20px;
+}
+
+
+
+
 //Contact me page///////////////////////
-.icon-list{
+li .icons, .icon-text {
+    display: inline;
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    list-style-type: none;
 }
 .top-content{
     margin-top:10%;
 }
 .content{
-    margin-top:10%;
+    margin-top:5%;
 }
 
 .icons{
@@ -94,10 +131,13 @@ p {
 }
 
 .github{
-    width:12%;
+    width:10%;
 }
 
 label{
     font-weight:800;
     font-size:1.5em;
+}
+.contact-subheading{
+    margin-bottom:40px;
 }
