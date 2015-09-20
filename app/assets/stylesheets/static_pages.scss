@@ -1,6 +1,7 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 h1{
 	color:blue;
 	font-family:cursive;
@@ -140,4 +141,22 @@ label{
 }
 .contact-subheading{
     margin-bottom:40px;
+}
+
+
+/////about me page/////
+.me-background{
+    background-color: #06A77D;
+    height:1000px;
+}
+
+#my-photo{
+    border-radius:90%;
+    width:40%;
+    margin-top:50%;
+}
+
+#about-me-text{
+    text-align:center;
+    margin-top:20%;
 }
